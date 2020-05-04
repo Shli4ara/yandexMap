@@ -1,0 +1,50 @@
+#yMap{
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+.block{
+    width: 50%;
+    float: left;
+}
+.block input{
+    height: 50px;
+    font-size: 20px;
+    width: 90%;
+}
+.blocks > div{
+    position: relative;
+    padding: 15px 10px;
+    width: 90%;
+    border: 1px solid black;
+    margin: 5px 0 15px;
+}
+.control{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    cursor: pointer;
+    top: 50%;
+    margin-top: -5px;
+}
+.remove{
+    right: 15px;
+}
+.remove:before{
+    content: 'x';
+    display: inline-block;
+}
+.bottom{
+    right: 60px;
+}
+.bottom:before{
+    content: '↓';
+    display: inline-block;
+}
+.top{
+    right: 39px;
+}
+.top:before{
+    content: '↑';
+    display: inline-block;
+}
